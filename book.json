@@ -1,0 +1,17 @@
+{
+  "title": "notes",
+  "author": "liucuiling",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "structure": {
+    "readme": "README.md"
+  },
+  "plugins": [
+    "back-to-top-button",
+    "chapter-fold",
+    "splitter"
+  ]
+}
