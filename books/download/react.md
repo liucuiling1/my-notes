@@ -16,9 +16,11 @@
 
 5、create-react-app demo  (demo创建的项目名称)
 
-6、cd demo (进入项目)
+6、进入项目
+>cd demo
 
-7、npm start (启动项目)
+7、启动项目(查看md文档)
+> npm start
 
 ```
 注：如果是下载淘宝镜像，在下载依赖包时用：cnpm install

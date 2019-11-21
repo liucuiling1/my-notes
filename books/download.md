@@ -1,5 +1,5 @@
 #### 安装流程
-
+* [git](./download/git.md)
 * [gitbook](./download/gitbook.md)
-* [vue](./download/vue.md)
 * [react](./download/react.md)
+* [vue](./download/vue.md)
