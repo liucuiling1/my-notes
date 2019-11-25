@@ -9,7 +9,9 @@
 (2) 编辑器代码格式化
 * 小程序格式化：Shift+Alt+F
 * webstrom格式化：Command+Alt+L
-* vscode格式化：Shift+Alt+F
+* vscode格式化：Shift+Alt+F   
+
+(3) 清除缓存：Command+shift+del
 
 
 
