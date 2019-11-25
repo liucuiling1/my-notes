@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>react · my-notes</title>
+        <title>php&nginx · my-notes</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -59,10 +59,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="vue.html" />
+    <link rel="next" href="express.html" />
     
     
-    <link rel="prev" href="gitbook.html" />
+    <link rel="prev" href="adb.html" />
     
 
     </head>
@@ -144,7 +144,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.3" data-path="react.html">
+        <li class="chapter " data-level="1.2.3" data-path="react.html">
             
                 <a href="react.html">
             
@@ -183,7 +183,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.6" data-path="php&nginx.html">
+        <li class="chapter active" data-level="1.2.6" data-path="php&nginx.html">
             
                 <a href="php&nginx.html">
             
@@ -328,7 +328,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >react</a>
+        <a href="../.." >php&nginx</a>
     </h1>
 </div>
 
@@ -343,33 +343,36 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h4 id="react&#x642D;&#x5EFA;&#x8FD0;&#x884C;&#x73AF;&#x5883;&#x7684;&#x6D41;&#x7A0B;">react&#x642D;&#x5EFA;&#x8FD0;&#x884C;&#x73AF;&#x5883;&#x7684;&#x6D41;&#x7A0B;</h4>
-<p>1&#x3001;&#x5B89;&#x88C5;node&#xFF08;&#x5B89;&#x88C5;node&#x65F6;&#x4F1A;&#x81EA;&#x5E26;&#x4E00;&#x4E2A;npm&#x7684;&#x5305;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF09;</p>
-<p>2&#x3001;&#x67E5;&#x770B;&#x7248;&#x672C;</p>
+                                <h4 id="php&#x548C;nginx&#x542F;&#x52A8;&#xFF08;&#x9879;&#x76EE;&#x914D;&#x7F6E;&#xFF09;">php&#x548C;nginx&#x542F;&#x52A8;&#xFF08;&#x9879;&#x76EE;&#x914D;&#x7F6E;&#xFF09;</h4>
+<p>&#x4E00;&#x3001;php&#x542F;&#x52A8;&#xFF1A;  </p>
 <blockquote>
-<p>node -v &#x548C; npm -v</p>
+<p>brew services restart php71</p>
 </blockquote>
-<p>3&#x3001;&#x6DD8;&#x5B9D;&#x955C;&#x50CF;</p>
+<p>&#x4E8C;&#x3001;nginx&#x542F;&#x52A8;&#xFF1A;  </p>
 <blockquote>
-<p>&#x5B89;&#x88C5;npm&#x6E90;&#xFF1A;npm install -g cnpm --registry=<a href="https://registry.npm.taobao.org" target="_blank">https://registry.npm.taobao.org</a>;</p>
-<p>&#x66F4;&#x6362;npm&#x6E90;&#xFF1A;npm config set registry <a href="https://registry.npm.taobao.org" target="_blank">https://registry.npm.taobao.org</a>       </p>
-<p>&#x67E5;&#x770B;npm&#x6E90;&#xFF1A;npm config get registry </p>
+<p>sudo nginx -s reload
+sudo chmod -R 777 vendor/storage/<br>(vendor/storage/&#x8981;&#x89E3;&#x538B;)</p>
 </blockquote>
-<p>4&#x3001;&#x5B89;&#x88C5;</p>
-<blockquote>
-<p>npm install create-react-app -g   (-g&#x5168;&#x5C40;&#x5B89;&#x88C5;)</p>
-</blockquote>
-<p>5&#x3001;create-react-app demo  (demo&#x521B;&#x5EFA;&#x7684;&#x9879;&#x76EE;&#x540D;&#x79F0;)</p>
-<p>6&#x3001;&#x8FDB;&#x5165;&#x9879;&#x76EE;</p>
-<blockquote>
-<p>cd demo</p>
-</blockquote>
-<p>7&#x3001;&#x542F;&#x52A8;&#x9879;&#x76EE;(&#x67E5;&#x770B;md&#x6587;&#x6863;)</p>
-<blockquote>
-<p>npm start</p>
-</blockquote>
-<pre><code>&#x6CE8;&#xFF1A;&#x5982;&#x679C;&#x662F;&#x4E0B;&#x8F7D;&#x6DD8;&#x5B9D;&#x955C;&#x50CF;&#xFF0C;&#x5728;&#x4E0B;&#x8F7D;&#x4F9D;&#x8D56;&#x5305;&#x65F6;&#x7528;&#xFF1A;cnpm install
-</code></pre>
+<p>&#x4E09;&#x3001;&#x9879;&#x76EE;&#x914D;&#x7F6E;&#x73AF;&#x5883;&#xFF1A;
+1&#x3001;cd /usr/local/etc/nginx/servers/<br>2&#x3001;vim blog (&#x65B0;&#x5EFA;/&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x5939;&#x540D;)<br>   &#x5220;&#x9664;&#x6587;&#x4EF6;&#x5939;&#x547D;&#x4EE4; &#xFF1A; rm blog(&#x6587;&#x4EF6;&#x5939;&#x540D;)
+3&#x3001;&#x590D;&#x5236;&#x4E0B;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x5230;&#x65B0;&#x5EFA;&#x7684;&#x6587;&#x4EF6;&#x5939;blog(&#x6587;&#x4EF6;&#x5939;&#x540D;)</p>
+<pre><code>server {
+  listen           80;
+  server_name  frogmp.com; 
+  root          /Users/limin/frogmp/public;
+  location / {
+    try_files $uri $uri/ /index.php?$query_string;
+    index  index.php;
+    include      /usr/local/etc/nginx/conf.d/php-fpm;
+  }
+}
+</code></pre><pre><code>&#x6CE8;&#x610F;&#xFF1A;&#x5176;&#x4E2D;root&#x4E2D;&#x7684;&#x8DEF;&#x7ECF;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; cd blog/public/ &#x2014;&gt; pwd &#x547D;&#x4EE4;&#x67E5;&#x627E;&#x51FA;&#x6765;
+     a/A&#x5207;&#x6362;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;  ESC&#x9000;&#x51FA;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#xFF0C;shift+ :wq (&#x4FDD;&#x5B58;&#x9000;&#x51FA;) ,enter&#x56DE;&#x8F66;
+</code></pre><p>4&#x3001;cd&#x9000;&#x51FA; sudo vim /etc/hosts<br>   &#x6DFB;&#x52A0; 127.0.0.1  wechat.fg.com &#xFF08;&#x8BBF;&#x95EE;&#x7F51;&#x5740;&#x540D;&#xFF09;<br>   a/A&#x5207;&#x6362;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;  ESC&#x9000;&#x51FA;&#x7F16;&#x8F91;&#x6A21;&#x5F0F;&#xFF0C;shift+ :wq ,(&#x4FDD;&#x5B58;&#x9000;&#x51FA;)</p>
+<p>5&#x3001;nginx&#x670D;&#x52A1;&#x5668;&#x91CD;&#x8D77;&#xFF1A;sudo nginx -s reload</p>
+<p>&#x6DFB;&#x52A0;&#x6743;&#x9650; &#xFF1A;chmod -R 777 vendor/ storage/ bootstrap/</p>
+<p><img src="../../images/php&amp;nginx.png" alt="avatar"></p>
+
                                 
                                 </section>
                             
@@ -396,12 +399,12 @@
 
             
                 
-                <a href="gitbook.html" class="navigation navigation-prev " aria-label="Previous page: gitbook">
+                <a href="adb.html" class="navigation navigation-prev " aria-label="Previous page: adb">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="vue.html" class="navigation navigation-next " aria-label="Next page: vue">
+                <a href="express.html" class="navigation navigation-next " aria-label="Next page: express">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -412,7 +415,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"react","level":"1.2.3","depth":2,"next":{"title":"vue","level":"1.2.4","depth":2,"path":"books/download/vue.md","ref":"./books/download/vue.md","articles":[]},"previous":{"title":"gitbook","level":"1.2.2","depth":2,"path":"books/download/gitbook.md","ref":"./books/download/gitbook.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","splitter","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"chapter-fold":{},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"liucuiling","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"my-notes","language":"zh-hans","gitbook":"3.2.3"},"file":{"path":"books/download/react.md","mtime":"2019-11-21T10:33:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-25T06:39:30.856Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"php&nginx","level":"1.2.6","depth":2,"next":{"title":"express","level":"1.2.7","depth":2,"path":"books/download/express.md","ref":"./books/download/express.md","articles":[]},"previous":{"title":"adb","level":"1.2.5","depth":2,"path":"books/download/adb.md","ref":"./books/download/adb.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","splitter","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"chapter-fold":{},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"liucuiling","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"my-notes","language":"zh-hans","gitbook":"3.2.3"},"file":{"path":"books/download/php&nginx.md","mtime":"2019-11-25T03:53:23.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-25T06:39:30.856Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

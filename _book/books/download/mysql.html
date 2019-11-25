@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>react · my-notes</title>
+        <title>mysql · my-notes</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -59,10 +59,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="vue.html" />
+    <link rel="next" href="../notes.html" />
     
     
-    <link rel="prev" href="gitbook.html" />
+    <link rel="prev" href="express.html" />
     
 
     </head>
@@ -144,7 +144,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.3" data-path="react.html">
+        <li class="chapter " data-level="1.2.3" data-path="react.html">
             
                 <a href="react.html">
             
@@ -209,7 +209,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.8" data-path="mysql.html">
+        <li class="chapter active" data-level="1.2.8" data-path="mysql.html">
             
                 <a href="mysql.html">
             
@@ -328,7 +328,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >react</a>
+        <a href="../.." >mysql</a>
     </h1>
 </div>
 
@@ -343,32 +343,62 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h4 id="react&#x642D;&#x5EFA;&#x8FD0;&#x884C;&#x73AF;&#x5883;&#x7684;&#x6D41;&#x7A0B;">react&#x642D;&#x5EFA;&#x8FD0;&#x884C;&#x73AF;&#x5883;&#x7684;&#x6D41;&#x7A0B;</h4>
-<p>1&#x3001;&#x5B89;&#x88C5;node&#xFF08;&#x5B89;&#x88C5;node&#x65F6;&#x4F1A;&#x81EA;&#x5E26;&#x4E00;&#x4E2A;npm&#x7684;&#x5305;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF09;</p>
-<p>2&#x3001;&#x67E5;&#x770B;&#x7248;&#x672C;</p>
-<blockquote>
-<p>node -v &#x548C; npm -v</p>
-</blockquote>
-<p>3&#x3001;&#x6DD8;&#x5B9D;&#x955C;&#x50CF;</p>
-<blockquote>
-<p>&#x5B89;&#x88C5;npm&#x6E90;&#xFF1A;npm install -g cnpm --registry=<a href="https://registry.npm.taobao.org" target="_blank">https://registry.npm.taobao.org</a>;</p>
-<p>&#x66F4;&#x6362;npm&#x6E90;&#xFF1A;npm config set registry <a href="https://registry.npm.taobao.org" target="_blank">https://registry.npm.taobao.org</a>       </p>
-<p>&#x67E5;&#x770B;npm&#x6E90;&#xFF1A;npm config get registry </p>
-</blockquote>
-<p>4&#x3001;&#x5B89;&#x88C5;</p>
-<blockquote>
-<p>npm install create-react-app -g   (-g&#x5168;&#x5C40;&#x5B89;&#x88C5;)</p>
-</blockquote>
-<p>5&#x3001;create-react-app demo  (demo&#x521B;&#x5EFA;&#x7684;&#x9879;&#x76EE;&#x540D;&#x79F0;)</p>
-<p>6&#x3001;&#x8FDB;&#x5165;&#x9879;&#x76EE;</p>
-<blockquote>
-<p>cd demo</p>
-</blockquote>
-<p>7&#x3001;&#x542F;&#x52A8;&#x9879;&#x76EE;(&#x67E5;&#x770B;md&#x6587;&#x6863;)</p>
-<blockquote>
-<p>npm start</p>
-</blockquote>
-<pre><code>&#x6CE8;&#xFF1A;&#x5982;&#x679C;&#x662F;&#x4E0B;&#x8F7D;&#x6DD8;&#x5B9D;&#x955C;&#x50CF;&#xFF0C;&#x5728;&#x4E0B;&#x8F7D;&#x4F9D;&#x8D56;&#x5305;&#x65F6;&#x7528;&#xFF1A;cnpm install
+                                <h4 id="&#x4E00;&#x3001;mysql&#x5B89;&#x88C5;">&#x4E00;&#x3001;mysql&#x5B89;&#x88C5;</h4>
+<p>&#x767B;&#x5F55;&#xFF1A;mysql -u root -p<br>&#x5BC6;&#x7801;&#xFF1A;123456</p>
+<p>(1) show databases;&#x67E5;&#x770B;&#x5E93;<br>(2) use mysql;&#x5207;&#x6362;&#x5230;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x5E93;<br>(3) show tables;&#x67E5;&#x770B;&#x5E93;&#x4E2D;&#x6240;&#x542B;&#x6709;&#x7684;&#x8868;<br>(4) create database auth;&#x521B;&#x5EFA;auth&#x5E93;<br>(5) use auth;&#x5207;&#x6362;&#x5230;auth&#x5E93;   </p>
+<p>&#x5220;&#x9664;<br>&#xFF08;1&#xFF09;drop table auth;&#x5220;&#x9664;auth&#x5E93;<br>&#xFF08;2&#xFF09;drop table auth.users;&#x5220;&#x9664;auth&#x5E93;&#x4E2D;users&#x8868;   </p>
+<p>&#x521B;&#x5EFA;&#x8868;&#xFF1A;<br>&#xFF08;1&#xFF09;&#x521B;&#x5EFA;tb_users&#x8868;&#x683C;</p>
+<pre><code>  mysql&gt; create table tb_users (
+    -&gt; name varchar(20),
+    -&gt; age int ,
+    -&gt; passworld varchar(32) comment&apos;&#x5BC6;&#x7801;&#x662F;32&#x4F4D;&apos;,
+    -&gt; birthday date comment &apos;&#x751F;&#x65E5; &#x65E5;&#x671F;&#x7C7B;&apos;);
+</code></pre><p>&#x4FEE;&#x6539;&#xFF1A;<br>&#x5728;&#x8868;t1&#x7684;name&#x5217;&#x540E;&#x6DFB;&#x52A0;&#x4E00;&#x5217;&#x4E3A;&#x56FE;&#x7247;&#x8DEF;&#x5F84;&#xFF1A;
+alter table t1 add pic_url varchar(100) comment &apos;&#x56FE;&#x7247;&#x8DEF;&#x5F84;&apos; after name;   </p>
+<p>&#x5220;&#x9664;&#xFF1A;<br>alter table t1 drop sno;</p>
+<h4 id="&#x4E8C;&#x3001;mysql&#x8BED;&#x6CD5;">&#x4E8C;&#x3001;mysql&#x8BED;&#x6CD5;</h4>
+<p>SQL&#xFF1A; DML &#x548C; DDL</p>
+<p>1&#x3001;&#x67E5;&#x8BE2;&#x548C;&#x66F4;&#x65B0;&#x6307;&#x4EE4;&#x6784;&#x6210;&#x4E86; SQL &#x7684; DML &#x90E8;&#x5206;</p>
+<ul>
+<li>select - &#x4ECE;&#x6570;&#x636E;&#x5E93;&#x8868;&#x4E2D;&#x83B7;&#x53D6;&#x6570;&#x636E;</li>
+<li>update - &#x66F4;&#x65B0;&#x6570;&#x636E;&#x5E93;&#x8868;&#x4E2D;&#x7684;&#x6570;&#x636E;</li>
+<li>delete - &#x4ECE;&#x6570;&#x636E;&#x5E93;&#x8868;&#x4E2D;&#x5220;&#x9664;&#x6570;&#x636E;</li>
+<li>insert into - &#x5411;&#x6570;&#x636E;&#x5E93;&#x8868;&#x4E2D;&#x63D2;&#x5165;&#x6570;&#x636E;</li>
+</ul>
+<p>2&#x3001;SQL &#x4E2D;&#x6700;&#x91CD;&#x8981;&#x7684; DDL &#x8BED;&#x53E5;:</p>
+<ul>
+<li>create database - &#x521B;&#x5EFA;&#x65B0;&#x6570;&#x636E;&#x5E93;</li>
+<li>alter database  - &#x4FEE;&#x6539;&#x6570;&#x636E;&#x5E93;</li>
+<li>create table - &#x521B;&#x5EFA;&#x65B0;&#x8868;</li>
+<li>alter table  - &#x53D8;&#x66F4;&#xFF08;&#x6539;&#x53D8;&#xFF09;&#x6570;&#x636E;&#x5E93;&#x8868;</li>
+<li>drop table - &#x5220;&#x9664;&#x8868;</li>
+<li>create index - &#x521B;&#x5EFA;&#x7D22;&#x5F15;&#xFF08;&#x641C;&#x7D22;&#x952E;&#xFF09;</li>
+<li>drop index- &#x5220;&#x9664;&#x7D22;&#x5F15;</li>
+</ul>
+<p>3&#x3001;select</p>
+<pre><code>select * from userInfo  ---&#x83B7;&#x53D6;userInfo&#x8868;&#x6570;&#x636E;
+</code></pre><p>4&#x3001;distinct </p>
+<pre><code>SELECT DISTINCT Company FROM Orders   ---&#x5982;&#x9700;&#x4ECE; Company&quot; &#x5217;&#x4E2D;&#x4EC5;&#x9009;&#x53D6;&#x552F;&#x4E00;&#x4E0D;&#x540C;&#x7684;&#x503C;
+</code></pre><p>5&#x3001;where</p>
+<pre><code>SELECT &#x5217;&#x540D;&#x79F0; FROM &#x8868;&#x540D;&#x79F0; WHERE &#x5217; &#x8FD0;&#x7B97;&#x7B26; &#x503C; &#xFF08;&#x5982;&#x679C;&#x662F;&#x6570;&#x503C;&#xFF0C;&#x8BF7;&#x4E0D;&#x8981;&#x4F7F;&#x7528;&#x5F15;&#x53F7;)
+SELECT * FROM Persons WHERE City=&#x2018;Beijing&#x2019; ---&#x9009;&#x53D6;&#x5C45;&#x4F4F;&#x5728;&#x57CE;&#x5E02; &quot;Beijing&quot; &#x4E2D;&#x7684;&#x4EBA;
+</code></pre><p>6&#xFF1A;and</p>
+<pre><code>SELECT * FROM Persons WHERE FirstName=&apos;Thomas&apos; AND LastName=&#x2018;Carter&#x2019;
+</code></pre><p>7&#x3001;or</p>
+<pre><code>SELECT * FROM Persons WHERE firstname=&apos;Thomas&apos; OR lastname=&apos;Carter&apos;
+</code></pre><p>8&#x3001;and &#xFF0C;or &#x7ED3;&#x5408;</p>
+<pre><code>SELECT * FROM Persons WHERE (FirstName=&apos;Thomas&apos; OR FirstName=&apos;William&#x2019;) AND LastName=&apos;Carter&apos;
+</code></pre><p>9&#x3001;&#x6392;&#x5E8F;&#xFF1A;order by</p>
+<pre><code>SELECT Company, OrderNumber FROM Orders ORDER BY Company
+</code></pre><p>10&#x3001;&#x63D2;&#x5165;&#xFF1A;insert</p>
+<pre><code>INSERT INTO &#x8868;&#x540D;&#x79F0; VALUES (&#x503C;1, &#x503C;2,&#x2026;.)
+INSERT INTO table_name (&#x5217;1, &#x5217;2,...) VALUES (&#x503C;1, &#x503C;2,&#x2026;.)
+</code></pre><p>11&#x3001;&#x4FEE;&#x6539;: update</p>
+<pre><code>UPDATE &#x8868;&#x540D;&#x79F0; SET &#x5217;&#x540D;&#x79F0; = &#x65B0;&#x503C; WHERE &#x5217;&#x540D;&#x79F0; = &#x67D0;&#x503C;
+</code></pre><p>12&#x3001;&#x5220;&#x9664;: delete</p>
+<pre><code>DELETE FROM &#x8868;&#x540D;&#x79F0; WHERE &#x5217;&#x540D;&#x79F0; = &#x503C;
+</code></pre><p>13&#x3001;&#x6570;&#x636E;&#x5E93;muysql&#x51FA;&#x73B0;&#xFF1F;&#xFF1F;&#xFF1F;&#x65F6;&#xFF1B;</p>
+<pre><code> ALTER TABLE `&#x8868;&#x540D;` CHANGE `&#x5217;&#x540D;` `&#x5217;&#x540D;` VARCHAR(45) CHARACTER SET UTF8 NOT NULL;
 </code></pre>
                                 
                                 </section>
@@ -396,12 +426,12 @@
 
             
                 
-                <a href="gitbook.html" class="navigation navigation-prev " aria-label="Previous page: gitbook">
+                <a href="express.html" class="navigation navigation-prev " aria-label="Previous page: express">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="vue.html" class="navigation navigation-next " aria-label="Next page: vue">
+                <a href="../notes.html" class="navigation navigation-next " aria-label="Next page: 笔记">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -412,7 +442,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"react","level":"1.2.3","depth":2,"next":{"title":"vue","level":"1.2.4","depth":2,"path":"books/download/vue.md","ref":"./books/download/vue.md","articles":[]},"previous":{"title":"gitbook","level":"1.2.2","depth":2,"path":"books/download/gitbook.md","ref":"./books/download/gitbook.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","splitter","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"chapter-fold":{},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"liucuiling","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"my-notes","language":"zh-hans","gitbook":"3.2.3"},"file":{"path":"books/download/react.md","mtime":"2019-11-21T10:33:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-25T06:39:30.856Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"mysql","level":"1.2.8","depth":2,"next":{"title":"笔记","level":"1.3","depth":1,"path":"books/notes.md","ref":"./books/notes.md","articles":[{"title":"keyboard","level":"1.3.1","depth":2,"path":"books/notes/keyboard.md","ref":"./books/notes/keyboard.md","articles":[]},{"title":"终端","level":"1.3.2","depth":2,"path":"books/notes/终端.md","ref":"./books/notes/终端.md","articles":[]},{"title":"react-notes","level":"1.3.3","depth":2,"path":"books/notes/react-notes.md","ref":"./books/notes/react-notes.md","articles":[]},{"title":"tabindex","level":"1.3.4","depth":2,"path":"books/notes/tabindex.md","ref":"./books/notes/tabindex.md","articles":[]}]},"previous":{"title":"express","level":"1.2.7","depth":2,"path":"books/download/express.md","ref":"./books/download/express.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button","chapter-fold","splitter","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"chapter-fold":{},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"liucuiling","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"my-notes","language":"zh-hans","gitbook":"3.2.3"},"file":{"path":"books/download/mysql.md","mtime":"2019-11-25T06:33:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-25T06:39:30.856Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
