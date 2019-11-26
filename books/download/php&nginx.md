@@ -33,7 +33,7 @@ server {
 
 4、cd退出 sudo vim /etc/hosts   
    添加 127.0.0.1  wechat.fg.com （访问网址名）    
-   a/A切换编辑模式  ESC退出编辑模式，shift + :wq ,(保存退出)
+   a/A切换编辑模式  ESC退出编辑模式, shift+ :wq (保存退出), enter回车
 
 5、nginx服务器重起：sudo nginx -s reload
 
