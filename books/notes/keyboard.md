@@ -11,7 +11,9 @@
 * webstrom格式化：Command+Alt+L
 * vscode格式化：Shift+Alt+F   
 
-(3) 清除缓存：Command+shift+del
+(3) 清除缓存：Command+shift+del   
+(4) vscode快速生成HTML   
+> ！ 后按tab
 
 
 
