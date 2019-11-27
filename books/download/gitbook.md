@@ -16,3 +16,6 @@
 
 ###### 5.生成一个 _book 文件夹
 > gitbook build
+
+###### 6.安装插件
+> gitbook install
