@@ -8,3 +8,7 @@ https://github.com/liucuiling1/my-notes.git
 
 ##### 生成html
 > gitbook build
+
+
+
+// leftList文件夹为左列表
