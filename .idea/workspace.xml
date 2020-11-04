@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67d9d1c1-c55d-4ffb-848d-ae384d29cfef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/books/react/react_notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/weChat/weChat_ilink.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/weChat/weChat_js.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/weChat/weChat_promise.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/weChat/weChat_webSocket.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download/adb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/download/adb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download/express.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/download/express.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download/git.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/download/git.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download/gitbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/download/gitbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download/mysql.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/download/mysql.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download/php&amp;nginx.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/download/php&amp;nginx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download/react.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/download/react.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/download/vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/download/vue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/notes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/notes/keyboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/notes/keyboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/notes/react-notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/notes/react-notes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/notes/react-服务器端渲染.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/notes/react-服务器端渲染.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/notes/tabindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/notes/tabindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/books/notes/终端.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/books/notes/终端.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/download.md" beforeDir="false" afterPath="$PROJECT_DIR$/books/leftList/download.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/books/leftList/notes.md" afterDir="false" />
-    </list>
+    <list default="true" id="67d9d1c1-c55d-4ffb-848d-ae384d29cfef" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -41,11 +14,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SUMMARY.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="435">
-                <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <first_editor relative-caret-position="210">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -53,43 +26,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/SUMMARY.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books/leftList/download.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books/leftList/notes.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <first_editor relative-caret-position="435">
+                <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -125,8 +66,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="493" />
-    <option name="y" value="-1399" />
+    <option name="x" value="599" />
+    <option name="y" value="-1337" />
     <option name="width" value="1362" />
     <option name="height" value="1080" />
   </component>
@@ -191,15 +132,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594260556646</updated>
-      <workItem from="1594260559803" duration="9670000" />
+      <workItem from="1594260559803" duration="12859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9670000" />
+    <option name="totallyTimeSpent" value="12859000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="493" y="-1399" width="1362" height="1080" extended-state="0" />
+    <frame x="599" y="-1337" width="1362" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -383,6 +324,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/books/leftList/download.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -401,27 +348,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <first_editor relative-caret-position="210">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>

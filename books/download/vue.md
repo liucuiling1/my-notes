@@ -17,3 +17,18 @@
 
 7、安装项目依赖  
 > npm install
+
+
+#### vue-cli搭建运行环境
+
+1、安装vue-cli
+> npm install -g @vue/cli  
+> /or    
+> yarn global add @vue/cli  
+
+2、vue create firstvue
+
+3、参考链接
+> https://www.cnblogs.com/xiaoyaoxingchen/p/10276551.html
+
+

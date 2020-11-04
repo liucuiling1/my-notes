@@ -10,13 +10,15 @@
   * [php&nginx](./books/download/php&nginx.md)
   * [express](./books/download/express.md)
   * [mysql](./books/download/mysql.md)
+  * [vscode](./books/download/vscode.md)
+  * [webpack](./books/download/webpack.md)
+
 
 * [笔记](books/leftList/notes.md)
   * [keyboard](./books/notes/keyboard.md)
   * [终端](./books/notes/终端.md)
   * [react-notes](./books/notes/react-notes.md)
   * [tabindex](./books/notes/tabindex.md)
-  * [react-服务器端渲染](./books/notes/react-服务器端渲染.md)
 
 * [微信小程序](./books/leftList/weChat.md)
   * [引用公用js](./books/weChat/weChat_js.md)
